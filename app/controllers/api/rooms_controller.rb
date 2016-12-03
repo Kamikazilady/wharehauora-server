@@ -1,3 +1,3 @@
 # frozen_string_literal: true
-class Api::RoomsController < JSONAPI::ResourceController
+class Api::RoomsController < Api::BaseController
 end

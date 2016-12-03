@@ -1,3 +1,3 @@
 # frozen_string_literal: true
-class Api::HomesController < JSONAPI::ResourceController
+class Api::HomesController < Api::BaseController
 end
