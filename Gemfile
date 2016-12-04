@@ -59,8 +59,9 @@ group :development, :test do
   gem 'byebug'
 
   # code style
-  gem 'rubocop', require: false
   gem 'haml-lint', require: false
+  gem 'rubocop', require: false
+
   gem 'scss_lint', require: false
 
   # looks for obvious wrongness
@@ -77,8 +78,8 @@ group :development, :test do
   gem 'faker'
 
   # Code coverage analysis
-  gem 'coveralls', require: false
   gem 'codeclimate-test-reporter', require: false
+  gem 'coveralls', require: false
 end
 
 group :development do
@@ -87,4 +88,8 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+end
+
+group :test do
+  gem 'capybara'
 end
